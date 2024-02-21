@@ -32,14 +32,14 @@ const Header = () => {
     <div className='bg-[url(/images/Thalibg.jpg)] bg-cover h-[200px] sm:h-[500px]'>
 
 
-<div className='w-11/12 m-auto font-bold text-white '>
+<div className='w-11/12 m-auto font-bold text-white text-sm '>
 
 <div className='flex justify-between  '>
 <div className='mt-3 z-50'> 
-    <img className='w-[110px] h-[80px] ' src='/images/logo.png' alt=''/>
+    <img className='w-[80px] h-[60px] ' src='/images/logo.png' alt=''/>
 </div>
 
-<div className='hidden  sm:flex justify-between gap-x-10 '>
+<div className='hidden  sm:flex justify-between gap-x-5 '>
     <div onMouseEnter={me} onMouseLeave={ml} className='mt-7 hover:underline relative '  >
         <Link to="/">
 
@@ -163,7 +163,7 @@ const Header = () => {
     </div>
 </div>
 
-<div className='hidden absolute top-[-150px] left-[-80px] z-10 rounded-full sm:block w-[300px] h-[300px] bg-white'>
+<div className='hidden absolute top-[-180px] left-[-100px] z-10 rounded-full sm:block w-[300px] h-[300px] bg-white'>
     
 </div>
 
