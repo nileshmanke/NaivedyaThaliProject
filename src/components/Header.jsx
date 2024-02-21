@@ -29,7 +29,7 @@ const Header = () => {
         setmanagement(false);
     }
   return (
-    <div className='bg-[url(/images/Thalibg.jpg)] bg-cover h-[200px] sm:h-[500px]'>
+    <div className='header-container bg-[url(/images/Thalibg.jpg)] bg-cover h-[200px] sm:h-[500px] relative'>
 
 
 <div className='w-11/12 m-auto font-bold text-white text-sm '>
@@ -50,7 +50,7 @@ const Header = () => {
             </div>
             
             
-            <div className={` ${resturant ? "rotate-180" : ""} mt-1 text-xl `}>
+            <div className={` ${resturant ? "rotate-180" : ""}  text-xl `}>
                 <RiArrowDropDownLine />
             </div>
             </div>
@@ -60,17 +60,17 @@ const Header = () => {
 
 
 <ul className='p-5 flex flex-col gap-y-5'>
-    <li>
-        Sambhaji Nagar -Waluj
+<li>
+        Ghole Road Pune
     </li>
     <li>
         Sambhaji Nagar-Cidco
     </li>
     <li>
-    Sambhaji Nagar-Hadco
+    Sambhaji Nagar-Waluj
     </li>
     <li>
-    Sambhaji Nager-Mayur Park
+    Pandharpur
     </li>
 </ul>
         </div>
@@ -99,7 +99,7 @@ const Header = () => {
             </div>
             
             
-            <div className={` ${management ? "rotate-180" : ""} mt-1 text-xl `}>
+            <div className={` ${management ? "rotate-180" : ""}  text-xl `}>
                 <RiArrowDropDownLine />
             </div>
             </div>
@@ -111,16 +111,16 @@ const Header = () => {
 
 <ul className='p-5 flex flex-col gap-y-5'>
     <li>
-        Sambhaji Nagar -Waluj
+        Expertise
     </li>
     <li>
-        Sambhaji Nagar-Cidco
+        Achievements
     </li>
     <li>
-    Sambhaji Nagar-Hadco
+    Why To Join Us
     </li>
     <li>
-    Sambhaji Nager-Mayur Park
+    Director Profile
     </li>
 </ul>
         </div>
@@ -163,7 +163,7 @@ const Header = () => {
     </div>
 </div>
 
-<div className='hidden absolute top-[-180px] left-[-100px] z-10 rounded-full sm:block w-[300px] h-[300px] bg-white'>
+<div className='hidden absolute top-[-190px] left-[-90px] z-10 rounded-full sm:block w-[300px] h-[300px] bg-white'>
     
 </div>
 
@@ -174,7 +174,10 @@ const Header = () => {
     setmenu(!menu);
 }} className='block sm:hidden mt-8'>
 
-{menu ? <FaBars /> : <IoMdClose />}
+
+    
+
+{menu ? <div className='text-xl'> <FaBars /> </div> : <div className='text-xl'> <IoMdClose /> </div>}
 
 
 
@@ -184,7 +187,7 @@ const Header = () => {
 
 </div>
 
-<div  className={` ${!menu ? "block" : "hidden"} sm:hidden mt-3 w-screen h-[300px] bg-white`} style={{animation: 'slideRight 0.5s ease'}}>
+<div  className={` ${!menu ? "block" : "hidden"} z-100 sm:hidden mt-3 w-screen h-screen  text-white bg-[#222f3e]`} style={{animation: 'slideRight 0.5s ease'}}>
 
     <div className=' gap-y-3 flex flex-col justify-center p-4'>
 
@@ -197,7 +200,7 @@ const Header = () => {
              <div >
             <Link to="/">Resturants</Link>
             </div>
-            <div style={{animation:'slideInFromTop 0.3s ease'}} className={  ` w-[200px] rounded-2xl  shadow-inner  bg-white  text-black font-normal  absolute ${mresturant  ? "block"  : "hidden"}`}>
+            <div style={{animation:'slideInFromTop 0.3s ease'}} className={  ` w-[250px] h-[300px] rounded-2xl  shadow-inner bg-[#2c2c54]  text-white font-normal  absolute ${mresturant  ? "block"  : "hidden"}`}>
 
 
 <ul className='p-5 flex flex-col gap-y-5'>
@@ -206,16 +209,16 @@ const Header = () => {
     <IoIosReturnLeft />
     </div>
     <li>
-        Sambhaji Nagar -Waluj
+        Ghole Road Pune
     </li>
     <li>
         Sambhaji Nagar-Cidco
     </li>
     <li>
-    Sambhaji Nagar-Hadco
+    Sambhaji Nagar-Waluj
     </li>
     <li>
-    Sambhaji Nager-Mayur Park
+    Pandharpur
     </li>
 </ul>
         </div>
@@ -243,7 +246,7 @@ const Header = () => {
             <Link to="/">Management</Link>
             </div>
 
-            <div style={{animation:'slideInFromTop 0.3s ease'}} className={  ` w-[200px] rounded-2xl  shadow-inner  bg-white  text-black font-normal  absolute  ${mmanagement  ? "block"  : "hidden"}`}>
+            <div style={{animation:'slideInFromTop 0.3s ease'}} className={  ` w-[250px] rounded-2xl  shadow-inner  bg-[#2c2c54]  text-white font-normal  absolute  ${mmanagement  ? "block"  : "hidden"}`}>
 
 
 <ul className='p-5 flex flex-col gap-y-5'>
@@ -252,16 +255,16 @@ const Header = () => {
     <IoIosReturnLeft />
     </div>
     <li>
-        Sambhaji Nagar -Waluj
+        Expertise
     </li>
     <li>
-        Sambhaji Nagar-Cidco
+        Achievements
     </li>
     <li>
-    Sambhaji Nagar-Hadco
+    Why To Join Us
     </li>
     <li>
-    Sambhaji Nager-Mayur Park
+    Director Profile
     </li>
 </ul>
         </div>
