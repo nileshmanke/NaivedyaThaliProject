@@ -35,7 +35,7 @@ const Header = () => {
 <div className='w-11/12 m-auto font-bold text-white '>
 
 <div className='flex justify-between  '>
-<div className='mt-3'> 
+<div className='mt-3 z-50'> 
     <img className='w-[110px] h-[80px] ' src='/images/logo.png' alt=''/>
 </div>
 
@@ -162,6 +162,12 @@ const Header = () => {
         <button>Book table</button>
     </div>
 </div>
+
+<div className='hidden absolute top-[-150px] left-[-80px] z-10 rounded-full sm:block w-[300px] h-[300px] bg-white'>
+    
+</div>
+
+
 
 
 <div onClick={()=>{
