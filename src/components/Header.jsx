@@ -127,7 +127,7 @@ const Header = () => {
     </div>
 
     <div  className='mt-7 hover:underline'  >
-        <Link to="/">
+        <Link to="/gallery">
             Gallery
         </Link>
     </div>
@@ -192,9 +192,9 @@ const Header = () => {
     <div className=' gap-y-3 flex flex-col justify-center p-4'>
 
 <div>
-    <div onClick={()=>setmresturant(!mresturant)} className='flex gap-x-2'>
+    <div onClick={()=>setmenu(!menu)} className='flex gap-x-2'>
         
-        <div  className='mt-1 '>
+        <div   className='mt-1 '>
              <IoIosArrowForward />
              </div>
              <div >
@@ -274,8 +274,10 @@ const Header = () => {
 </div>
 
 
-<div className='ml-[22px]'>
-    <Link to="/">Gallery</Link>
+<div onClick={()=>{
+    setmenu(!menu);
+}} className='ml-[22px]'>
+    <Link to="/gallery">Gallery</Link>
 </div>
 
 <div className='ml-[22px]'>

@@ -1,7 +1,10 @@
 import { Route, Routes } from "react-router-dom";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
-import Home from "./components/Home";
+// import Home from "./components/Home";
+import Gallery from "./components/Gallery";
+import Resturant from "./components/Resturant";
+
 
 function App() {
   return (
@@ -11,7 +14,8 @@ function App() {
 
 <Routes>
 
-<Route path="/" element={<Home/>} />
+<Route path="/" element={<Resturant/>} />
+<Route path="/gallery" element={<Gallery/>} />
 
 
 
