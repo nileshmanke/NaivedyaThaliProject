@@ -4,6 +4,7 @@ const Gallery = () => {
   return (
 
     <div>
+      
 
     <div className='flex flex-wrap justify-center gap-y-4 p-6'>
       <div className='w-full  flex justify-center sm:w-1/2 md:w-1/3 lg:w-1/4'>
