@@ -59,39 +59,39 @@ const Gallery = () => {
 
 <div className='text-center '>
     <img src='https://naivedyathali.in/gallery_images/compressed/1684411132.jpg' alt=''/>
-    <h1 className=' text-sm sm:text-xl font-bold text-red-700'>  EAT FROM THE HEART</h1>
+    <h1 className=' text-sm sm:text-xl font-bold text-red-700'> Special Dal fry</h1>
 </div>
 
 <div className='text-center'>
     <img src='https://naivedyathali.in/gallery_images/compressed/1684411173.jpg' alt=''/>
-    <h1 className=' text-sm sm:text-xl font-bold text-red-700'>  EAT FROM THE HEART</h1>
+    <h1 className=' text-sm sm:text-xl font-bold text-red-700'>  Panner Masala</h1>
 </div>
 
 <div className='text-center'>
     <img src='https://naivedyathali.in/gallery_images/compressed/1684411205.jpg' alt=''/>
-    <h1 className=' text-sm sm:text-xl font-bold text-red-700'>  EAT FROM THE HEART</h1>
+    <h1 className=' text-sm sm:text-xl font-bold text-red-700'>  Gobi Masala</h1>
 </div>
 
 
 <div className='text-center'>
     <img src='https://naivedyathali.in/gallery_images/compressed/1684411244.jpg' alt=''/>
-    <h1 className=' text-sm sm:text-xl font-bold text-red-700'>  EAT FROM THE HEART</h1>
+    <h1 className=' text-sm sm:text-xl font-bold text-red-700'>Special Roti</h1>
 </div>
 
 <div className='text-center'>
     <img src='https://naivedyathali.in/gallery_images/compressed/1684411274.jpg' alt=''/>
-    <h1 className=' text-sm sm:text-xl font-bold text-red-700'>  EAT FROM THE HEART</h1>
+    <h1 className=' text-sm sm:text-xl font-bold text-red-700'> Special Fry vegitables</h1>
 </div>
 
 <div className='text-center'>
     <img src='https://naivedyathali.in/gallery_images/compressed/1684411308.jpg' alt=''/>
-    <h1 className=' text-sm sm:text-xl font-bold text-red-700'>  EAT FROM THE HEART</h1>
+    <h1 className=' text-sm sm:text-xl font-bold text-red-700'> Dal khichdi</h1>
 </div>
 
 
 <div className='text-center'>
     <img src='https://naivedyathali.in/gallery_images/compressed/1684411336.jpg' alt=''/>
-    <h1 className=' text-sm sm:text-xl font-bold text-red-700'>  EAT FROM THE HEART</h1>
+    <h1 className=' text-sm sm:text-xl font-bold text-red-700'> Jira Rice</h1>
 </div>
 
 
