@@ -58,7 +58,7 @@ const Gallery = () => {
 
 <div className='text-center '>
     <img src='https://naivedyathali.in/gallery_images/compressed/1684411132.jpg' alt=''/>
-    <h1 className=' text-sm sm:text-xl font-bold text-red-700'> Dal fry</h1>
+    <h1 className=' text-sm sm:text-xl font-bold text-red-700'> Special Dal fry</h1>
 </div>
 
 <div className='text-center'>
