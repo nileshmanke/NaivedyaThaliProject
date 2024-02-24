@@ -142,12 +142,12 @@ const Header = () => {
 
     <div  className='mt-7 hover:underline'  >
         <Link to="/login">
-            Login
+            Login / Sign Up
         </Link>
     </div>
 
     <div  className='mt-7 hover:underline'  >
-        <Link to="/">
+        <Link to="/membership">
             Membership
         </Link>
     </div>
@@ -292,8 +292,10 @@ const Header = () => {
     <Link to="/login">Login</Link>
 </div>
 
-<div className='ml-[22px]'>
-    <Link to="/">Membership</Link>
+<div  onClick={()=>{
+    setmenu(!menu);
+}} className='ml-[22px]'>
+    <Link to="/membership">Membership</Link>
 </div>
 
     </div>

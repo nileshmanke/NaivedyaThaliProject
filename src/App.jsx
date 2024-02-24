@@ -6,6 +6,7 @@ import Gallery from "./components/Gallery";
 import Resturant from "./components/Resturant";
 import Login from "./components/Login";
 import Contact from "./components/Contact";
+import Membership from "./components/Membership";
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
 <Route path="/gallery" element={<Gallery/>} />
 <Route path="/login" element={<Login/>} />
 <Route path="/contact" element={<Contact/>} />
+<Route path="/membership" element={<Membership/>} />
 
 
 
