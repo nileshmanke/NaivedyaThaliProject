@@ -133,15 +133,15 @@ const Header = () => {
     </div>
 
 
-    <div  className='mt-7 hover:underline'  >
-        <Link to="/">
+    <div   className='mt-7 hover:underline'  >
+        <Link to="/contact">
             Contact Us
         </Link>
     </div>
 
 
     <div  className='mt-7 hover:underline'  >
-        <Link to="/">
+        <Link to="/login">
             Login
         </Link>
     </div>
@@ -280,12 +280,16 @@ const Header = () => {
     <Link to="/gallery">Gallery</Link>
 </div>
 
-<div className='ml-[22px]'>
-    <Link to="/">Contact Us</Link>
+<div onClick={()=>{
+    setmenu(!menu);
+}} className='ml-[22px]'>
+    <Link to="/contact">Contact Us</Link>
 </div>
 
-<div className='ml-[22px]'>
-    <Link to="/">Login</Link>
+<div onClick={()=>{
+    setmenu(!menu);
+}} className='ml-[22px]'>
+    <Link to="/login">Login</Link>
 </div>
 
 <div className='ml-[22px]'>
