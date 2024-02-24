@@ -95,6 +95,12 @@ const Gallery = () => {
 </div>
 
 
+<div className='flex flex-col justify-between text-center'>
+    <img className='sm:w-[400px] sm:h-[260px] w-[300px] h-[200px] sm:ml-0 ml-7 ' src='https://pluspng.com/img-png/foods-png-food-feature-small-png-885.png' alt=''/>
+    <h1 className=' text-sm sm:text-xl font-bold text-red-700'> Fresh vegiees</h1>
+</div>
+
+
 
 </div>
 
