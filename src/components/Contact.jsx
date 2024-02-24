@@ -39,7 +39,7 @@ function Contact() {
           
           <div className="flex flex-col-2 gap-4 p-4 sm:p-6">
             <div>
-              <img className="text-center w-20  rounded-full  bg-red-600 " src="public/Images/img4.jpg" alt="" />
+              <img className="text-center w-20  rounded-full  bg-red-600 " src="/images/img4.jpg" alt="" />
             </div>
             <div>
             <h1 className="font-bold text-red-600 text-xl">Our Address</h1>
@@ -53,7 +53,7 @@ function Contact() {
 
           <div className="flex flex-col-2 gap-4 p-4 sm:p-6">
             <div>
-              <img className="text-center sm:w-20 w-10  rounded-full  bg-red-600 " src="public/Images/img5.png" alt="" />
+              <img className="text-center sm:w-20 w-10  rounded-full  bg-red-600 " src="/images/img5.png" alt="" />
             </div>
             
             <div>
@@ -65,7 +65,7 @@ function Contact() {
 
             <div className="flex flex-col-2 gap-4  p-4 sm:p-6">
               <div>
-              <img className="text-center sm:w-20 w-10 rounded-full  bg-red-600 " src="public/Images/img6.png" alt="" />
+              <img className="text-center sm:w-20 w-10 rounded-full  bg-red-600 " src="/images/img6.png" alt="" />
               </div>
              
             <div>
@@ -76,7 +76,7 @@ function Contact() {
 
           <div className="flex flex-col-2 gap-4 p-4 sm:p-6">
             <div>
-              <img className="text-center w-24  rounded-full  bg-red-600 " src="public/Images/img7.jpg" alt="" />
+              <img className="text-center w-24  rounded-full  bg-red-600 " src="/images/img7.jpg" alt="" />
             </div>
 
             <div >
