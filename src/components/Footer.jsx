@@ -68,12 +68,7 @@ const Footer = () => {
 <div>
 
     <hr/>
-<div className='text-center text-white  p-5'>
-                    
-                    
-                    <p >© Copyright 2024 Naivedya Thali, Ch.Sambhaji Nagar </p>
 
-                </div>
 
 
                 <div className="grid grid-cols-1 gap-y-2  sm:grid-cols-1 p-2 text-center text-xs sm:text-sm w-full sm:flex justify-between sm:p-2 text-white   " style={{ fontFamily: 'Comfortaa, sans-serif', fontSize: '16px' }}>
