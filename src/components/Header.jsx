@@ -197,7 +197,8 @@ const Header = () => {
     <div className=' gap-y-3 flex flex-col justify-center p-4'>
 
 <div>
-    <div onClick={()=>setmenu(!menu)} className='flex gap-x-2'>
+    <div onClick={()=>{setmresturant(!mresturant);
+    setmmanagement(false)}} className='flex gap-x-2'>
         
         <div   className='mt-1 '>
              <IoIosArrowForward />
