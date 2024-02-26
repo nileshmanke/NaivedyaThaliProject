@@ -139,28 +139,7 @@ const Membership = () => {
                 className="w-full rounded-md border border-red-600 bg-white py-1 px-3 sm:py-3 sm:px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
               />
             </div>
-            <div className='grid grid-cols-1 sm:grid sm:grid-cols-2 gap-8 justify-center'>
-
-            <div className= " mb-0 sm:mb-5   shadow-2xl hover:bg-slate-50 ">
-              <input
-                type="text"
-                name="name"
-                id="name"
-                placeholder="Enter Password"
-                className="w-full rounded-md border border-red-600 bg-white py-1 px-3 sm:py-3 sm:px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
-              />
-            </div>
-
-           < div className="mb-5  t shadow-2xl ">
-              <input
-                type="text"
-                name="name"
-                id="name"
-                placeholder="Comform Password"
-                className="w-full rounded-md border border-red-600 bg-white py-1 px-3 sm:py-3 sm:px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
-              />
-            </div>
-            </div>
+            
 
 
             

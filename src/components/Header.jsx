@@ -151,7 +151,7 @@ const Header = () => {
 
 
 
-    <div  className='mt-7 '  >
+    <div  className='mt-7 hover:underline'  >
         <Link to="/login">
           <span className= ' animate-pulse text-white font-bold bg-red-700 p-2 text-sm sm:p-3 w-[100px] sm:w-[150px] rounded-xl text-center'> Login / Sign Up</span> 
         </Link>
@@ -303,8 +303,8 @@ const Header = () => {
 
 <div   onClick={()=>{
     setmenu(!menu);
-}} className='ml-[15px] mt-7'>
-    <Link to="/login"><span className=' text-white font-bold bg-red-700 p-2 text-sm sm:p-3 w-[100px] sm:w-[150px] rounded-xl text-center'>Login/Sign Up</span></Link>
+}} className='ml-[22px] mt-7'>
+    <Link to="/login"><span className='animate-pulse text-white font-bold bg-red-700 p-2 text-sm sm:p-3 w-[100px] sm:w-[150px] rounded-xl text-center'>Login/Sign Up</span></Link>
 </div>
 
     </div>
