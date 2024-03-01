@@ -56,7 +56,7 @@ const Header = () => {
     <img className='w-[80px] h-[60px] ' src='/images/logo.png' alt=''/>
 </Link>
 
-<div className='hidden  sm:flex justify-between gap-x-5 '>
+<div className='hidden  sm:flex justify-between gap-x-2 '>
     <div onMouseEnter={me} onMouseLeave={ml} className='mt-7 hover:underline relative '  >
         <Link to="/">
 
@@ -201,7 +201,7 @@ const Header = () => {
 </div>
 
 
-<Link to="/" className='hidden absolute top-[-190px] left-[-90px] z-10 rounded-full sm:block w-[300px] h-[300px] bg-white'>
+<Link to="/" className='hidden absolute top-[-190px] left-[-130px] z-10 rounded-full sm:block w-[300px] h-[300px] bg-white'>
 
 <div >
     

@@ -93,7 +93,7 @@ const MainHome = () => {
     <div className=" font-serif">
           <h1 className="font-serif sm:text-4xl sm:pt-5 text-red-600">The Joy of Thali</h1>
           <br />
-          <p className="text-xl  sm:text-pretty sm:font-serif  sm:px-72  ">
+          <p className="text-xl  sm:text-pretty sm:font-serif  sm:px-72  p-4 ">
             {" "}
             Every recipe goes through a scrutiny to test whether it will stand
             up to the reputation of the brand, the reason why the customers keep
