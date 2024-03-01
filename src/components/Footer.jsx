@@ -12,8 +12,8 @@ const Footer = () => {
     return (
         <div className='bg-[#222f3e] ' style={footerStyle}>
             
-             <div className=' flex justify-center  '>
-                <img className=' b sm:w-[200px] shadow-2xl sm:h-[160px] w-[100px] h-[80px] animate-pulse rounded-b-full' src="/images/footerlogo.jpg " alt="" />
+             <div className=' z-10 flex justify-center  '>
+                <img className='  sm:w-[200px] shadow-2xl sm:h-[160px] w-[100px] h-[80px]  rounded-b-full' src="/images/footerlogo.jpg " alt="" />
             </div>
             
             <div className=' sm:grid sm:grid-cols-4 grid grid-cols-1 p-10 text-white'>

@@ -40,3 +40,13 @@ body {
       transform: translateX(0);
     }
   }
+
+
+  @keyframes slideRightpopup {
+    from {
+      width: 20%;
+    }
+    to {
+     width: 100%;
+    }
+  }

@@ -6,6 +6,9 @@ import { FaBars } from "react-icons/fa6";
 import { IoMdClose } from "react-icons/io";
 import { IoIosArrowForward } from "react-icons/io";
 import { IoIosReturnLeft } from "react-icons/io";
+import Login from './Login';
+import BookTable from './BookTable';
+
 
 const Header = () => {
 
@@ -13,6 +16,19 @@ const Header = () => {
     const [management, setmanagement] = useState(false);
     const [mresturant, setmresturant] = useState(false);
     const [mmanagement, setmmanagement] = useState(false);
+    const [showmodel, setshowmodel] = useState(false);
+    const [mshowmodel, setmshowmodel] = useState(false);
+    const [showtable, setshowtable] = useState(false);
+    const [showmtable, setshowmtable] = useState(false);
+     const closebooktable=()=>{
+        setshowtable(false);
+     }
+     const closebookmtable=()=>{
+        setshowmtable(false);
+     }
+
+    const closemodel=()=>{ setshowmodel(false);
+    setmshowmodel(false);}
 
     const [menu, setmenu] = useState(true);
     const me=()=>{
@@ -34,10 +50,11 @@ const Header = () => {
 
 <div className='w-11/12 m-auto font-bold text-white text-sm '>
 
-<div className='flex justify-between  '>
-<div className='mt-3 z-50'> 
+<div className='flex justify-between relative '>
+    
+<Link to="/" className='mt-3 z-50'> 
     <img className='w-[80px] h-[60px] ' src='/images/logo.png' alt=''/>
-</div>
+</Link>
 
 <div className='hidden  sm:flex justify-between gap-x-5 '>
     <div onMouseEnter={me} onMouseLeave={ml} className='mt-7 hover:underline relative '  >
@@ -151,10 +168,12 @@ const Header = () => {
 
 
 
-    <div  className='mt-7 hover:underline'  >
-        <Link to="/login">
+    <div onClick={()=>{
+        setshowmodel(true);
+    }}  className='mt-7 hover:underline  cursor-pointer  '  >
+        <div >
           <span className= ' animate-pulse text-white font-bold bg-red-700 p-2 text-sm sm:p-3 w-[100px] sm:w-[150px] rounded-xl text-center'> Login / Sign Up</span> 
-        </Link>
+        </div>
     </div>
     
 
@@ -162,15 +181,33 @@ const Header = () => {
 
 
 
-<div className='mt-5'>
+<div onClick={()=>{
+    setshowtable(true);
+   
+}} className='mt-5 hidden sm:block'>
     <div className='text-white font-bold bg-red-700 p-2 text-sm sm:p-3 w-[100px] sm:w-[150px] rounded-xl text-center '>
         <button>Book Table</button>
     </div>
 </div>
 
-<div className='hidden absolute top-[-190px] left-[-90px] z-10 rounded-full sm:block w-[300px] h-[300px] bg-white'>
+
+<div onClick={()=>{
+    setshowmtable(true);
+   
+}} className='mt-5 block sm:hidden'>
+    <div className='text-white font-bold bg-red-700 p-2 text-sm sm:p-3 w-[100px] sm:w-[150px] rounded-xl text-center '>
+        <button>Book Table</button>
+    </div>
+</div>
+
+
+<Link to="/" className='hidden absolute top-[-190px] left-[-90px] z-10 rounded-full sm:block w-[300px] h-[300px] bg-white'>
+
+<div >
     
 </div>
+
+</Link>
 
 
 
@@ -186,6 +223,15 @@ const Header = () => {
 
 
 
+</div>
+
+<div className='hidden sm:block  fixed top-36 right-[600px]'>
+{showmodel && <Login   closemodel={closemodel}/>}
+</div>
+
+
+<div className=' fixed top-28 right-[500px]'>
+{showtable && <BookTable   closebooktable={closebooktable}/>}
 </div>
 
 </div>
@@ -303,14 +349,29 @@ const Header = () => {
 
 
 <div   onClick={()=>{
-    setmenu(!menu);
+    setmshowmodel(true);
 }} className='self-center mt-28'>
-    <Link to="/login"><span className=' animate-pulse text-white font-bold bg-red-700 p-2 text-sm sm:p-3 w-[100px] sm:w-[150px] rounded-xl text-center'>Login/Sign Up</span></Link>
+    <div ><span className=' animate-pulse text-white font-bold bg-red-700 p-2 text-sm sm:p-3 w-[100px] sm:w-[150px] rounded-xl text-center'>Login/Sign Up</span></div>
 </div>
+
+
+
+
 
     </div>
 
+
+    <div className='fixed top-20 right-0 w-screen'>
+    {mshowmodel && <Login   closemodel={closemodel}/>}
+    </div>
+
 </div>
+
+
+{ 
+
+showmtable && <BookTable closebookmtable={closebookmtable} />
+}
 
 
 

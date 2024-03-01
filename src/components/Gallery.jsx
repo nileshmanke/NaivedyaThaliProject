@@ -58,45 +58,45 @@ const Gallery = () => {
 <div className='grid grid-cols-1 sm:grid-cols-4  gap-y-4 p-3 mb-4'>
 
 <div className='text-center '>
-    <img src='/images/menu1.jpg' alt=''/>
+    <img className='w-[400px] h-[300px]' src='/images/menu1.jpg' alt=''/>
     <h1 className=' text-sm sm:text-xl font-bold text-red-700'> Special Dal fry</h1>
 </div>
 
 <div className='text-center'>
-    <img src='/images/menu2.jpg' alt=''/>
+    <img className='w-[400px] h-[300px]' src='/images/menu2.jpg' alt=''/>
     <h1 className=' text-sm sm:text-xl font-bold text-red-700'>  Panner Masala</h1>
 </div>
 
-<div className='text-center'>
-    <img src='/images/menu3.jpg' alt=''/>
+<div  className='text-center'>
+    <img className='w-[400px] h-[300px]' src='/images/menu3.jpg' alt=''/>
     <h1 className=' text-sm sm:text-xl font-bold text-red-700'>  Gobi Masala</h1>
 </div>
 
 
 <div className='text-center'>
-    <img src='/images/menu4.jpg' alt=''/>
+    <img className='w-[400px] h-[300px]' src='/images/menu4.jpg' alt=''/>
     <h1 className=' text-sm sm:text-xl font-bold text-red-700'>Special Roti</h1>
 </div>
 
 <div className='text-center'>
-    <img src='/images/menu5.jpg' alt=''/>
+    <img className='w-[400px] h-[300px]' src='/images/menu5.jpg' alt=''/>
     <h1 className=' text-sm sm:text-xl font-bold text-red-700'> Special Fry vegitables</h1>
 </div>
 
 <div className='text-center'>
-    <img src='/images/menu6.jpg' alt=''/>
+    <img className='w-[400px] h-[300px]' src='/images/menu6.jpg' alt=''/>
     <h1 className=' text-sm sm:text-xl font-bold text-red-700'> Dal khichdi</h1>
 </div>
 
 
 <div className='text-center'>
-    <img src='/images/menu7.jpg' alt=''/>
+    <img className='w-[400px] h-[300px]' src='/images/menu7.jpg' alt=''/>
     <h1 className=' text-sm sm:text-xl font-bold text-red-700'> Jira Rice</h1>
 </div>
 
 
-<div className='flex flex-col justify-between text-center'>
-    <img className='sm:w-[400px] sm:h-[260px] w-[300px] h-[200px] sm:ml-0 ml-7 ' src='/images/menu8.png' alt=''/>
+<div className='flex flex-col justify-between text-center sm:ml-0 ml-8'>
+    <img className='w-[400px] h-[300px]'  src='/images/menu8.png' alt=''/>
     <h1 className=' text-sm sm:text-xl font-bold text-red-700'> Fresh vegiees</h1>
 </div>
 
@@ -119,35 +119,35 @@ const Gallery = () => {
 
 
 <div className='  p-4' >
-    <img className=' hidden sm:block w-[500px] h-[310px]' src='/images/hotelimg.jpg' alt=''/>
+    <img className=' hidden sm:block w-[400px] h-[300px]' src='/images/hotelimg.jpg' alt=''/>
 </div>
 
 <div className='p-4'>
 
-<img src='/images/inner1.jpg' alt=''/>
+<img className='w-[400px] h-[300px]' src='/images/inner1.jpg' alt=''/>
 </div>
 
 
 <div  className='p-4'>
 
-<img src='/images/inner2.jpg' alt=''/>
+<img  className='w-[400px] h-[300px]' src='/images/inner2.jpg' alt=''/>
 </div>
   
 
 <div  className='p-4'>
 
-<img src='/images/inner3.jpg' alt=''/>
+<img   className='w-[400px] h-[300px]'  src='/images/inner3.jpg' alt=''/>
 </div>
 
 <div  className='p-4 '>
 
-<img className='sm:w-[500px] sm:h-[310px]' src='/images/inner4.jpg' alt=''/>
+<img   className='w-[400px] h-[300px]' src='/images/inner4.jpg' alt=''/>
 </div>
 
 
 <div  className='p-4'>
 
-<img src='/images/inner5.jpg' alt=''/>
+<img  className='w-[400px] h-[300px]' src='/images/inner5.jpg' alt=''/>
 </div>
 
 
