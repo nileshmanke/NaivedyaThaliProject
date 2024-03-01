@@ -14,7 +14,7 @@ const MainHome = () => {
   return (
     <div className="mt-5 h-auto text-3xl text-bold text-center">
       <div>
-        <Slider />
+        {/* <Slider /> */}
       </div>
       <div className=" ">
         <h1 className="font-serif sm:text-4xl sm:pt-5 text-red-600  ">

@@ -45,7 +45,7 @@ const Header = () => {
         setmanagement(false);
     }
   return (
-    <div className='header-container bg-[url(/images/Thalibg.jpg)] bg-cover h-[200px] sm:h-[500px] relative'>
+    <div className='header-container bg-[url(/images/Thalibg.jpg)] bg-cover h-[200px] sm:h-[500px] relative z-100'>
 
 
 <div className='w-11/12 m-auto font-bold text-white text-sm '>

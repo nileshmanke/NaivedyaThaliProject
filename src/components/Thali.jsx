@@ -7,9 +7,9 @@ const Thali = () => {
         Naivedya Thali Restaurants
       </h1>
 
-      <div className="grid sm:grid-cols-2  gap-3 p-6  sm:w-11/12 h-auto">
+      <div className="grid sm:grid-cols-2  gap-3 p-6  sm:w-11/12 h-auto ">
 
-        <div className="w-[300px] sm:w-full  bg-[url('/images/img1Thali.jpg')] bg-no-repeat bg-cover h-[600px] ">
+        <div className= "w-[300px] m-auto sm:w-full  bg-[url('/images/img1Thali.jpg')] bg-no-repeat bg-cover h-[600px] ">
           
           
         </div>
