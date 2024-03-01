@@ -9,13 +9,13 @@ const Thali = () => {
 
       <div className="grid sm:grid-cols-2  gap-3 p-6  sm:w-11/12 h-auto">
 
-        <div className="w-full  bg-[url('/images/img1Thali.jpg')] bg-no-repeat bg-cover h-[600px] ">
+        <div className="w-[300px] sm:w-full  bg-[url('/images/img1Thali.jpg')] bg-no-repeat bg-cover h-[600px] ">
           
           
         </div>
 
         <div className="">
-          <h2 className="text-xl sm:text-start sm:font-serif">
+          <h2 className="text-xl sm:text-start sm:font-serif w-[300px] sm:w-full">
              Naivedya Thali is a well known Restaurant brand for its specialty of
             delicious, vegetarian thali. Ever since its establishment, Naivedya
             Thali Restaurant has climbed the heights of success owing to the
@@ -27,9 +27,9 @@ const Thali = () => {
             can also be ordered at home within the city.
           </h2>
 
-          <div className="sm:px-0 px-6">
+          <div className="">
             <iframe
-            className=" sm:w-[500px] sm:h-[300px]"
+            className="w-[300px]  sm:w-[500px] sm:h-[300px]"
               
               src="https://www.youtube.com/embed/ed8EQhIxofk?si=zUwCQiuDYiqvWN95"
               title="YouTube video player"
